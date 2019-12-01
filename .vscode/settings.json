@@ -1,0 +1,12 @@
+{
+  "protoc": {
+    "path": "C:\\Program Files\\protoc-3.11.0-win64\\bin\\protoc",
+    "options": [
+      "--proto_path=protos/v3",
+      "--proto_path=protos/v2",
+      "--proto_path=${workspaceRoot}",
+      "--proto_path=${env.GOPATH}/src",
+      "--java_out=gen/java"
+    ]
+  }
+}
