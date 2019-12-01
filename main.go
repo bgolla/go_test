@@ -2,7 +2,7 @@ package main
 
 import (
 	"fmt"
-	"github.com/bgolla/go_sample/abc/example_simple"
+	"github.com/bgolla/go_test/abc/simple"
 	log "github.com/sirupsen/logrus"
 )
 

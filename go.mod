@@ -1,4 +1,4 @@
-module github.com/bgolla/go_sample
+module github.com/bgolla/go_test
 
 go 1.13
 
