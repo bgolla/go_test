@@ -2,7 +2,8 @@ package main
 
 import (
 	"fmt"
-	"github.com/bgolla/go_test/test"
+
+	simplepb "github.com/simplesteph/protobuf-example-go/src/simple"
 	log "github.com/sirupsen/logrus"
 )
 
@@ -13,6 +14,6 @@ func doSimple() {
 	//  a := example_simple.SimpleMessage{}
 	fmt.Printf("this is printf")
 	log.Info("abc")
-	a := simple.SimpleMessage{}
+	a := simplepb.SimpleMessage{}
 	fmt.Print(a)
 }
