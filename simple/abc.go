@@ -1,4 +1,4 @@
-package abc;
+package abc
 
 import "fmt"
 
